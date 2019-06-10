@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions.assertEquals
 class HelloWorldTest {
 
   @Test
-  def sayHelloWorld() = {
+  def sayHello() = {
     assertEquals("Hello world", HelloWorld.sayHello)
   }
 }
