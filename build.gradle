@@ -8,12 +8,13 @@ repositories {
 
 dependencies {
     compile 'org.scala-lang:scala-library:2.12.4'
+    compile group: 'com.thoughtworks.xstream', name: 'xstream', version: '1.4.11.1'
+
     testImplementation('org.junit.jupiter:junit-jupiter:5.4.2')
     // Your other deps here
 }
 
 test {
-    useJUnitPlatform()
     testLogging {
         events "passed", "skipped", "failed"
     }
