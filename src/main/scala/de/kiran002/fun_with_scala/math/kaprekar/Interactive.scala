@@ -10,7 +10,7 @@ object Interactive extends App {
     do {
         println("Enter a four digit number (not all digits should be equal)")
         val input = in.nextLine()
-        val k = Kaperkar(input, true)
+        val k = Kaprekar(input, true)
         if (!k.isValid) println("Not a valid number")
         else k.process()
         println("Do you want to quit? (q for yes, anything else for no)")
