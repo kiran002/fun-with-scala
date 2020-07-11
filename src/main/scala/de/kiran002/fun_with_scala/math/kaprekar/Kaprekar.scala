@@ -1,6 +1,6 @@
 package de.kiran002.fun_with_scala.math.kaprekar
 
-case class Kaperkar(input: String, printIntermediate: Boolean = false) {
+case class Kaprekar(input: String, printIntermediate: Boolean = false) {
 
     val Constant = 6174
 
