@@ -10,7 +10,7 @@ object All extends App {
         l <- 0 to 9
     } yield s"""$i$j$k$l"""
 
-    all.map(x => Kaperkar(x)).filter(_.isValid).foreach(_.process())
+    all.map(x => Kaprekar(x)).filter(_.isValid).foreach(_.process())
 
 }
 
